@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js --mode production",
-    "develop": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.config.js --mode development"
+    "develop": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.config.js --mode development",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "license": "MIT",
   "devDependencies": {
@@ -47,6 +49,8 @@
     "autoprefixer": "^9.8.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.4.6"
-  }
+    "tailwindcss": "^1.4.6",
+    "snyk": "^1.323.0"
+  },
+  "snyk": true
 }
