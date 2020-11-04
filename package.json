@@ -47,8 +47,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "tailwindcss": "^1.4.6",
     "snyk": "^1.323.0"
   },
