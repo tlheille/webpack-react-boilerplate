@@ -46,10 +46,10 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^10.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.4.6",
+    "tailwindcss": "^2.0.0",
     "snyk": "^1.323.0"
   },
   "snyk": true
