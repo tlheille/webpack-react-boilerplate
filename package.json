@@ -49,7 +49,7 @@
     "autoprefixer": "^9.8.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.4.6",
+    "tailwindcss": "^2.2.0",
     "snyk": "^1.323.0"
   },
   "snyk": true
